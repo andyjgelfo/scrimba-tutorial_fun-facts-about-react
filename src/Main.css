@@ -1,5 +1,9 @@
 body {
     background-color: #282D35;
+    background-image: url("./images/react_logo_large.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: right;
 }
 
 #funFactsTitle {
@@ -15,6 +19,7 @@ body {
     font-family: Inter, sans-serif;
     font-weight: normal;
     font-size: 16px;
+    
 }
 
 ul {
@@ -23,4 +28,9 @@ ul {
 
 li {
     padding-top: 1.5em;
+}
+
+li::marker {
+    color: #61DAFB;
+    font-size: 1.4rem;
 }
